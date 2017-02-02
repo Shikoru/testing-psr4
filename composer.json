@@ -1,0 +1,22 @@
+{
+    "name": "Shikoru/BulbapediaSetScrapper",
+    "description": "Retrieve set and card info from Bulbapedia",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Shikoru",
+            "email": "name@domain.com"
+        }
+    ],
+    "require": {
+    	"emanueleminotto/simple-html-dom"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.0.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Shikoru\\BulbapediaSetScraper\\": "src"
+        }
+    }
+}
